@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    background: #E8F1EB;
+    color: #121212;
+    font-weight: bold;
+}
+
+div {
+    text-align: center;
+    width: 500px;
+    margin: 5em auto;
+    border: 3px solid #121212;
+    padding: 1em 2em;
+    background: white;
+}
+
+img {
+    width: 100%;
+    border: 3px solid #121212;
+}
+
+i, p {
+    font-size: large;
+    display: block;
+    width: 80%;
+    margin: 1em auto;
+}
+
+button {
+    display: block;
+    margin: auto;
+    font-weight: bold;
+    color: #757575;
+    border: 3px solid #121212;
+    padding: 0.8em 0;
+    width: 15em;
+}
+
+button + button {
+    background: #121212;
+    margin: 1em auto;
+    color: white;
+}
+
+a {
+    color: #121212;
+}
