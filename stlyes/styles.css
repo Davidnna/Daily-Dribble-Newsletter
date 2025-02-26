@@ -6,23 +6,29 @@ body {
     padding: 0 1em;
 }
 
-div {
+#content {
     text-align: center;
     max-width: 500px;
     margin: 5em auto;
-    border: 3px solid #121212;
+    border: 0.2em solid #121212;
     padding: 1em 2em;
     background: white;
 }
 
+/* Header */
 h1 {
     word-wrap: break-word;
     overflow-wrap: break-word;
 }
 
-img {
+/* Image */
+figure {
+    margin: 0;
+}
+
+figure img {
     width: 100%;
-    border: 3px solid #121212;
+    border: 0.2em solid #121212;
 }
 
 i, p {
@@ -32,12 +38,13 @@ i, p {
     margin: 1em auto;
 }
 
+/* Actions */
 button {
     display: block;
     margin: auto;
     font-weight: bold;
     color: #757575;
-    border: 3px solid #121212;
+    border: 0.2em solid #121212;
     padding: 0.8em 0;
     width: 15em;
 }
@@ -48,12 +55,13 @@ button + button {
     color: white;
 }
 
-a {
+p a {
     color: #121212;
 }
 
+/* Responsive Design */
 @media (max-width: 315px) {
-    div {
+    #content {
         padding: 1em;
     }
 
